@@ -1,7 +1,6 @@
 # Events-agenda
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+2015 Wikia hackathon project! This is a mobile-only agenda viewer/planner to be utilized inside Wikia apps.
 
 ## Prerequisites
 
@@ -41,7 +40,7 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-Specify what it takes to deploy your app.
+After a production build, just deploy the files in /dist/ to any static site host.
 
 ## Further Reading / Useful Links
 
