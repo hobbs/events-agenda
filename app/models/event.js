@@ -5,5 +5,6 @@ export default DS.Model.extend({
 	startTime: DS.attr('date'),
 	endTime: DS.attr('date'),
 	location: DS.attr('string'),
-	imgUrl: DS.attr('string')
+	imgUrl: DS.attr('string'),
+	featured: DS.attr('boolean')
 });
