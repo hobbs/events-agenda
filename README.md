@@ -18,6 +18,8 @@ You will need the following things properly installed on your computer.
 * change into the new directory
 * `npm install`
 * `bower install`
+* `cp config/environment.js.example config/environment.js`
+* edit config/environment.js, add in the parse APP ID and API Key
 
 ## Running / Development
 
