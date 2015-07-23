@@ -1,8 +1,6 @@
-<h2>Events</h2>
-
-<ul>
+<ul class="events">
 {{#each model}}
-  <li>{{name}}</li>
+	{{event-card name=name}}
 {{else}}
   <li>No events found</li>
 {{/each}}
