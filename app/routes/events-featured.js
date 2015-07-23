@@ -1,5 +1,5 @@
 export default Ember.Route.extend({
   model: function () {
-	  return this.store.find('event', { where: '{ "featured": true }'} );
+	  return this.store.find('event', { where: '{ "featured": true }', order: 'startTime'} );
   }
 });

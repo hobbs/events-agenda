@@ -1,6 +1,17 @@
-<ul class="events">
-{{#each model as |info|}}
-	{{event-card info=info}}
+<ul class="times">
+{{#each groupedEvents as |times|}}
+
+
+	{{#if times.startTime}}
+    	<div class="start-time">{{times.startTime}}</div>
+    {{else}}
+      	<div class="start-time">All day</div>
+   	{{/if}}
+
+	{{#each times.items as |info|}}
+    	{{event-card-sm info=info}}
+	{{/each}}
+
 {{else}}
   <li>No events found</li>
 {{/each}}
