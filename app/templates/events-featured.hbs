@@ -1,0 +1,7 @@
+<ul class="events">
+{{#each model as |info|}}
+	{{event-card info=info}}
+{{else}}
+  <li>No events found</li>
+{{/each}}
+</ul>
