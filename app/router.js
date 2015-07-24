@@ -11,4 +11,8 @@ Router.map(function() {
 	this.route('events-starred', {path: '/starred'});
 });
 
+Router.reopen({
+  location: 'hash'
+});
+
 export default Router;
