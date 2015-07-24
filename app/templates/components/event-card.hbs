@@ -3,9 +3,7 @@
 		<h2>{{info.name}}</h2>
 
 		<ul>
-			<li>{{info.date}}</li>
-			<li>{{info.startTime}} - {{info.endTime}}</li>
-			<li>{{info.location}}</li>
+			<li>{{time-format info.startTime 'MMMM D'}} | {{time-format info.startTime 'h:mma'}} - {{time-format info.endTime 'h:mma'}} | {{info.location}}</li>
 		</ul>
 
 	</div>
