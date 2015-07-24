@@ -1,0 +1,106 @@
+html, body {
+    background-color: #F2F2F2;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.site-head {
+    background-color: #F6F6F6;
+    color: #B7B2AE;
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 100%;
+}
+
+.site-head > li {
+    flex: 1;
+    padding: 1rem;
+    text-align: center;
+}
+
+.active {
+    color: #25ABBF;
+    border-bottom: solid 2px #25ABBF;
+}
+
+.events {
+    color: #fff;
+    width: 100%;
+}
+
+.event-card {
+    background-image: url('http://thenextweb.com/wp-content/blogs.dir/1/files/2013/11/concert-audience.jpg');
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    padding: 20px;
+    position: relative;
+
+    .event-info {
+        bottom: 0;
+        font-size: 0.75rem;
+        left: 0;
+        padding: 20px;
+        position: absolute;
+        li {
+            border-right: solid 1px #B7B2AE;
+            color: #B7B2AE;
+            display: inline-block;
+            padding: 0 10px;
+        }
+
+        li:first-child {
+            padding-left: 0;
+        }
+        li:last-child {
+            border-right: none;
+        }
+
+        > h2 {
+            font-size: 0.825rem;
+            font-weight: bold;
+        }
+
+    }
+}
+.times {
+    .start-time {
+        color: #D83942;
+        font-size: 15px;
+        display: inline;
+        float:left;
+        margin-top: 3px;
+        width: 50px;
+        text-align: center;
+    }
+}
+
+.event-card-sm {
+    list-style-type: none;
+
+    .event-info {
+        background: white;
+        margin: 2px 9px 2px 50px;
+        padding: 5px;
+        font-size: 14px;
+        h3 {
+            color: #16ABC1;
+            font-size: 14px;
+            font-weight: 700;
+            margin: 0px;
+        }
+    }
+}
+

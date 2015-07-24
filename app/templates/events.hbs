@@ -1,9 +1,9 @@
-<ul class="times">
+<div class="times">
 {{#each groupedEvents as |times|}}
 
 
 	{{#if times.startTime}}
-    	<div class="start-time">{{times.startTime}}</div>
+    	<div class="start-time">{{time-format times.startTime 'h:mm'}}</div>
     {{else}}
       	<div class="start-time">All day</div>
    	{{/if}}
@@ -13,6 +13,6 @@
 	{{/each}}
 
 {{else}}
-  <li>No events found</li>
+  <div>No events found</div>
 {{/each}}
-</ul>
+</div>

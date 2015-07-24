@@ -5,7 +5,7 @@ export default Ember.Controller.extend({
 		var result = [];
 
 		this.get('model').forEach(function(item) {
-			if (result.length == 0 || result[result.length - 1].startTime != item.get('startTime')) {
+			if (result.length == 0 || result[result.length - 1].startTime.valueOf() != item.get('startTime').valueOf()) {
 				result[result.length] = { startTime: item.get('startTime'), items: [item]};
 			} else {
 				result[result.length - 1].items.push(item)

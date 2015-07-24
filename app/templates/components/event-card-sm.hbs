@@ -1,10 +1,10 @@
-<li class="event-card" style="background-image:url('{{{info.imgUrl}}}');">
+<li class="event-card-sm">
 	<div class="event-info">
-		<h2>{{info.name}}</h2>
+		<h3>{{info.name}}</h3>
 
 		<ul>
 			<li>{{info.date}}</li>
-			<li>{{info.startTime}} - {{info.endTime}}</li>
+			<li>{{time-format info.startTime 'hh:mma'}} - {{time-format info.endTime 'hh:mma'}}</li>
 			<li>{{info.location}}</li>
 		</ul>
 
