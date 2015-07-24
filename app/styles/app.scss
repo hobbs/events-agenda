@@ -14,14 +14,21 @@ ul {
     padding: 0;
 }
 
+
 .site-head {
     background-color: #F6F6F6;
     color: #B7B2AE;
     display: flex;
     flex-direction: row;
-    font-size: 1rem;
-    font-weight: bold;
+    font-size: 14px;
+    font-weight: 300;
     width: 100%;
+    .active {
+        color: #25ABBF;
+        border-bottom: solid 2px #25ABBF;
+        font-weight: 700;
+    }
+
 }
 
 .site-head > li {
@@ -30,10 +37,6 @@ ul {
     text-align: center;
 }
 
-.active {
-    color: #25ABBF;
-    border-bottom: solid 2px #25ABBF;
-}
 
 .events {
     color: #fff;
@@ -42,6 +45,7 @@ ul {
 
 .event-card {
     background-size: cover;
+	box-sizing: border-box;
     height: 200px;
     width: 100%;
     padding: 20px;
@@ -80,32 +84,87 @@ ul {
 
     }
 }
+
 .times {
+    position: relative;
+
     .start-time {
         color: #D83942;
-        font-size: 15px;
+        font-size: 13px;
+        font-weight: 200;
         display: inline;
         float:left;
-        margin-top: 3px;
+        padding-top: 10px;
+        padding-bottom: 6px;
         width: 50px;
         text-align: center;
+        background: #F2F2F2;
+        position: relative;
+        z-index: 1;
+        margin-top: -4px;
     }
+
+}
+.dotted {
+    border-left: dashed 1px #CCCCCC;
+    height: 100%;
+    left: 25px;
+    width: 1px;
+    display: inline;
+    position: absolute;
+    z-index: 0;
 }
 
 .event-card-sm {
     list-style-type: none;
+    position: relative;
 
+    .star {
+        top: 29px;
+    }
     .event-info {
         background: white;
         margin: 3px 9px 3px 50px;
-        padding: 5px;
-        font-size: 14px;
+        padding: 14px 11px 14px 11px;
+        font-size: 13px;
+        line-height: 17px;
+        color: #999999;
+        font-weight: 200;
         h3 {
             color: #16ABC1;
             font-size: 14px;
             font-weight: 700;
-            margin: 0px;
+            margin: 0;
         }
     }
 }
 
+.star {
+    background: url('/assets/img/gray-star-headliner.png');
+    background-size: 30px 30px;
+	display: block;
+	height: 30px;
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	width: 30px;
+
+	&.active {
+        background: url('/assets/img/gold-star-headliner.png');
+        background-size: 30px 30px;
+	}
+
+    &.sm {
+        background: url('/assets/img/gray-star-list.png');
+        background-size: 20px 20px;
+        height: 20px;
+        width: 20px;
+        top: 29px;
+        right: 25px;
+
+        &.active {
+            background: url('/assets/img/gold-star-list.png');
+            background-size: 20px 20px;
+    }
+    }
+}
