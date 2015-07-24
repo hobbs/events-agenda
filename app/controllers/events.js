@@ -1,4 +1,10 @@
-export default Ember.Controller.extend({
+var EventsController =  Ember.Controller.extend({
+
+	needs: ['starred'],
+
+	didInsertElement: function () {
+
+	},
 
 	groupedEvents: function() {
 
@@ -15,6 +21,15 @@ export default Ember.Controller.extend({
 		});
 
 		return result;
-	}.property('model')
+	}.property('model'),
+
+	actions: {
+		addStarredEvent: function (eventName) {
+			debugger;
+			this.controllers.starred.addItem(eventName);
+		}
+	}
 
 });
+
+export default EventsController;

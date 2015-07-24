@@ -1,7 +1,6 @@
 <div class="times">
 {{#each groupedEvents as |times|}}
 
-
 	{{#if times.startTime}}
     	<div class="start-time">{{time-format times.startTime 'h:mm'}}</div>
     {{else}}
@@ -9,7 +8,7 @@
    	{{/if}}
 
 	{{#each times.items as |info|}}
-    	{{event-card-sm info=info}}
+    	{{event-card-sm info=info markAsStarred="addStarredEvent"}}
 	{{/each}}
 
 {{else}}
