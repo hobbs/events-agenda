@@ -15,6 +15,13 @@ export default Ember.Controller.extend({
 		});
 
 		return result;
+	}.property('model'),
+
+	randomCookie: function() {
+		if (localStorage.getItem('localrand') == undefined) {
+			localStorage.setItem('localrand', Math.random());
+		}
+		return localStorage.getItem('localrand');
 	}.property('model')
 
 });
