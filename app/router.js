@@ -6,8 +6,7 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-	this.route('events-featured', {path: '/'});
-	this.route('events', {path: '/all'});
+	this.route('events', {path: '/'});
 	this.route('events-starred', {path: '/starred'});
 });
 

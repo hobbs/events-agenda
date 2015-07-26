@@ -1,4 +1,20 @@
-{{site-head}}
+<div class="site-head">
+  <span {{action 'showFeatured'}} {{bind-attr class='featured:active'}}>Featured</span>
+  <span {{action 'showAll'}} {{bind-attr class='featured::active'}}>All</span>
+</div>
+
+
+{{#if featured}}
+
+<ul class="events">
+  {{#each modelFeatured as |info|}}
+  {{event-card info=info}}
+  {{else}}
+  <li>No events found</li>
+  {{/each}}
+</ul>
+
+{{else}}
 
 <div class="times">
 	<span class="dotted"></span>
@@ -20,3 +36,5 @@
   <div>No events found</div>
 {{/each}}
 </div>
+
+{{/if}}

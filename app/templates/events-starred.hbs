@@ -1,20 +1,29 @@
+{{#if groupedEvents}}
+
 <div class="times">
 	<span class="dotted"></span>
-{{#each groupedEvents as |times|}}
+  {{#each groupedEvents as |times|}}
 
 
 
-	{{#if times.startTime}}
-    	<div class="start-time">{{time-format times.startTime 'h:mm'}}</div>
-    {{else}}
-      	<div class="start-time">All day</div>
-   	{{/if}}
+  {{#if times.startTime}}
+  <div class="start-time">{{time-format times.startTime 'h:mm'}}</div>
+  {{else}}
+  <div class="start-time">All day</div>
+  {{/if}}
 
-	{{#each times.items as |info|}}
-    	{{event-card-sm info=info}}
-	{{/each}}
+  {{#each times.items as |info|}}
+  {{event-card-sm info=info}}
+  {{/each}}
 
-{{else}}
-  <div>No events found</div>
-{{/each}}
-</div>
+  {{/each}}
+  </div>
+
+  {{else}}
+  <div class="starred-zero">
+    <img src="/assets/img/fav_lg.png">
+    <h2>Add the events you want to see in your schedule by tapping the star icon.</h2>
+    {{#link-to 'events'}}Show me the lineup{{/link-to}}
+  </div>
+  
+{{/if}}

@@ -15,6 +15,22 @@ export default Ember.Controller.extend({
 		});
 
 		return result;
-	}.property('model')
+	}.property('model'),
+
+	modelFeatured: function() {
+		return this.store.find('event', { where: '{ "featured": true }', order: 'startTime'} );
+	}.property('model'),
+
+	featured: true,
+
+	actions: {
+		showFeatured: function() {
+			this.set('featured', true);
+		},
+
+		showAll: function() {
+			this.set('featured', false);
+		}
+	}
 
 });

@@ -14,6 +14,32 @@ ul {
     padding: 0;
 }
 
+.starred-zero {
+    text-align: center;
+
+    img {
+        width: 75px;
+        height: 75px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 50px;
+    }
+    h2 {
+        color: #999999;
+        font-size: 25px;
+        font-weight: 300;
+        margin: 30px;
+        margin-bottom: 60px;
+    }
+    a {
+        background-color: #69CAD7;
+        padding: 20px;
+        color: #FFFFFF;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+}
 
 .site-head {
     background-color: #F6F6F6;
@@ -21,7 +47,7 @@ ul {
     height: 48px;
     padding: 0px;
     box-sizing: border-box;
-    a {
+    span {
         width: 49%;
         height: 48px;
         box-sizing: border-box;
