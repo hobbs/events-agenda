@@ -17,25 +17,28 @@ ul {
 
 .site-head {
     background-color: #F6F6F6;
-    color: #B7B2AE;
+
     display: flex;
     flex-direction: row;
-    font-size: 14px;
-    font-weight: 300;
     width: 100%;
-    .active {
-        color: #25ABBF;
-        border-bottom: solid 2px #25ABBF;
-        font-weight: 700;
+    a {
+        flex: 1;
+        padding: 1rem;
+        text-align: center;
+        text-decoration: none;
+        color: #B7B2AE;        
+        font-size: 14px;
+        font-weight: 300;
+        &.active {
+            color: #25ABBF;
+            border-bottom: solid 2px #25ABBF;
+            font-weight: 700;
+        }
     }
 
 }
 
-.site-head > li {
-    flex: 1;
-    padding: 1rem;
-    text-align: center;
-}
+
 
 
 .events {
