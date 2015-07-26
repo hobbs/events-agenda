@@ -1,0 +1,20 @@
+<div class="times">
+	<span class="dotted"></span>
+{{#each groupedEvents as |times|}}
+
+
+
+	{{#if times.startTime}}
+    	<div class="start-time">{{time-format times.startTime 'h:mm'}}</div>
+    {{else}}
+      	<div class="start-time">All day</div>
+   	{{/if}}
+
+	{{#each times.items as |info|}}
+    	{{event-card-sm info=info}}
+	{{/each}}
+
+{{else}}
+  <div>No events found</div>
+{{/each}}
+</div>
