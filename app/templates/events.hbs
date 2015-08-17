@@ -22,8 +22,12 @@
 
 
 
+  {{#if times.newDay}}
+      <div class="day-section">{{time-format times.startTime 'MMMM D, YYYY'}}</div>
+  {{/if}}
+
 	{{#if times.startTime}}
-    	<div class="start-time">{{time-format times.startTime 'h:mm'}}</div>
+      <div class="start-time">{{time-format times.startTime 'h:mm'}}</div>
     {{else}}
       	<div class="start-time">All day</div>
    	{{/if}}

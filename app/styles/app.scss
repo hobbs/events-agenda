@@ -162,6 +162,18 @@ ul {
     z-index: 0;
 }
 
+.day-section {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px 10px 0px;
+    color: #999999;
+    background: #F2F2F2;
+    z-index: 1;
+    position: relative;
+    font-size: 20px;
+    font-weight: 200;
+}
+
 .event-card-sm {
     list-style-type: none;
     position: relative;

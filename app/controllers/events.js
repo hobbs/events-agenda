@@ -6,7 +6,23 @@ export default Ember.Controller.extend({
 
 		this.get('model').forEach(function(item) {
 			if (result.length == 0 || result[result.length - 1].startTime.valueOf() != item.get('startTime').valueOf()) {
-				result[result.length] = { startTime: item.get('startTime'), items: [item]};
+				var newDay = false;
+
+
+
+				if (result.length == 0) {
+					newDay = true // First day
+				} else {
+					var prevDate = result[result.length - 1].startTime;
+					var curDate = item.get('startTime');
+					if (prevDate.getDate() != curDate.getDate() 
+						|| prevDate.getMonth() != curDate.getMonth()
+						|| prevDate.getFullYear() != curDate.getFullYear()) {
+						newDay = true;
+					}
+				}
+
+				result[result.length] = { startTime: item.get('startTime'), items: [item], newDay: newDay};
 			} else {
 				result[result.length - 1].items.push(item)
 			}
