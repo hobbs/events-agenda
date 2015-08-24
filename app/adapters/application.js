@@ -1,4 +1,4 @@
-import adapter from 'ember-parse-adapter/adapters/application';
+import DS from 'ember-data';
 
-/** @module adapters/application */
-export default adapter;
+export default DS.FixtureAdapter.extend({
+});

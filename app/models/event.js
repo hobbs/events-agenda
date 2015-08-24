@@ -1,6 +1,6 @@
 import DS from "ember-data";
  
-export default DS.Model.extend({
+var events = DS.Model.extend({
 	name: DS.attr('string'),
 	startTime: DS.attr('date'),
 	endTime: DS.attr('date'),
@@ -23,3 +23,50 @@ export default DS.Model.extend({
 
 	}.property('id')
 });
+
+events.reopenClass({
+	FIXTURES: [
+
+	{
+		id: 1,
+		name: 'Event Check-in & Breakfast',
+		startTime: new Date(2015, 9, 9, 8, 30, 0, 0),
+		endTime: new Date(2015, 9, 9, 8, 45, 0, 0),
+		location: 'Wikia Lobby',
+		imgUrl: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150',
+		featured: true
+	},
+
+	{
+		id: 2,
+		name: 'Orientation',
+		startTime: new Date(2015, 9, 9, 9, 45, 0, 0),
+		endTime: new Date(2015, 9, 9, 10, 0, 0, 0),
+		location: 'Town Hall',
+		imgUrl: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150',
+		featured: false
+	},
+	{
+		id: 3,
+		name: 'Welcome & Introductions',
+		startTime: new Date(2015, 9, 9, 10, 0, 0, 0),
+		endTime: new Date(2015, 9, 9, 11, 30, 0, 0),
+		location: 'Town Hall',
+		imgUrl: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150',
+		featured: false
+	},
+	{
+		id: 4,
+		name: 'Product Roadmap Overview',
+		startTime: new Date(2015, 9, 9, 11, 30, 0, 0),
+		endTime: new Date(2015, 9, 9, 12, 0, 0, 0),
+		location: 'Town Hall',
+		imgUrl: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150',
+		featured: true
+	}
+
+
+	]
+});
+
+export default events;
