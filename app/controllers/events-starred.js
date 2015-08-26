@@ -5,8 +5,6 @@ export default Ember.Controller.extend({
 		var result = [];
 
 		this.get('model').forEach(function(item) {
-
-			item.notifyPropertyChange('favorite');
 			if (item.get('favorite') == true) {
 
 				if (result.length == 0 || result[result.length - 1].startTime.valueOf() != item.get('startTime').valueOf()) {
@@ -18,6 +16,6 @@ export default Ember.Controller.extend({
 		});
 
 		return result;
-	}.property('model', 'visible.now')
+	}.property('model')
 
 });

@@ -1,6 +1,5 @@
 <div class="site-head">
-  <span {{action 'showFeatured'}} {{bind-attr class='featured:active'}}>Featured</span>
-  <span {{action 'showAll'}} {{bind-attr class='featured::active'}}>All</span>
+  <span {{action 'showFeatured'}} {{bind-attr class='featured:active'}}>Featured</span><span {{action 'showAll'}} {{bind-attr class='all:active'}}>All</span><span {{action 'showStarred'}} {{bind-attr class='starred:active'}}>Starred</span>
 </div>
 
 
@@ -16,6 +15,7 @@
 
 {{else}}
 
+{{#if groupedEvents}}
 <div class="times">
 	<span class="dotted"></span>
 {{#each groupedEvents as |times|}}
@@ -36,9 +36,14 @@
     	{{event-card-sm info=info}}
 	{{/each}}
 
-{{else}}
-  <div>No events found</div>
 {{/each}}
 </div>
-
+{{else}}
+  {{#if starred}}
+  <div class="starred-zero">
+    <img src="/assets/img/fav_lg.png">
+    <h2>Add the events you want to see in your schedule by tapping the star icon.</h2>
+  </div>
+  {{/if}}
+{{/if}}
 {{/if}}

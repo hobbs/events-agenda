@@ -4,7 +4,13 @@ export default Ember.Controller.extend({
 
 		var result = [];
 
+		var that = this;
 		this.get('model').forEach(function(item) {
+
+			if (that.get('starred') == true && item.get('favorite') == false) {
+				return;
+			}
+
 			if (result.length == 0 || result[result.length - 1].startTime.valueOf() != item.get('startTime').valueOf()) {
 				var newDay = false;
 
@@ -31,7 +37,7 @@ export default Ember.Controller.extend({
 		});
 
 		return result;
-	}.property('model'),
+	}.property('model', 'starred'),
 
 	modelFeatured: function() {
 		var result = [];
@@ -45,14 +51,28 @@ export default Ember.Controller.extend({
 	}.property('model'),
 
 	featured: true,
+	starred: false,
+	all: false,
 
 	actions: {
 		showFeatured: function() {
 			this.set('featured', true);
+			this.set('starred', false);
+			this.set('all', false);
+
 		},
 
 		showAll: function() {
 			this.set('featured', false);
+			this.set('starred', false);
+			this.set('all', true);
+
+		}, 
+
+		showStarred: function() {
+			this.set('featured', false);
+			this.set('starred', true);
+			this.set('all', false);
 		}
 	}
 
