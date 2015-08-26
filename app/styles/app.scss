@@ -123,6 +123,7 @@ ul {
         right: 15px;
         top: 15px;
         width: 30px;
+        -webkit-backface-visibility: hidden;
 
         &.active {
             background: url('/assets/img/gold-star-headliner.png');
@@ -202,6 +203,7 @@ ul {
         width: 20px;
         top: 29px;
         right: 25px;
+        -webkit-backface-visibility: hidden;
 
         &.active {
             background: url('/assets/img/gold-star-list.png');
