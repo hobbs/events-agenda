@@ -20,7 +20,6 @@ var events = DS.Model.extend({
 			return localStorage.getItem(this.get('id')) == 1;			
 		}
 
-
 	}.property('id')
 });
 
