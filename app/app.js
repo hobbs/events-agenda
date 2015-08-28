@@ -11,9 +11,6 @@ App = Ember.Application.extend({
   modulePrefix: config.modulePrefix,
   podModulePrefix: config.podModulePrefix,
   Resolver: Resolver,
-
-  customEvents: {touchend: "click"}
-  
 });
 
 loadInitializers(App, config.modulePrefix);
