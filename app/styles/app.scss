@@ -126,7 +126,7 @@ ul {
         -webkit-backface-visibility: hidden;
 
         &.active {
-            background: url('/assets/img/gold-star-headliner.png');
+            background-image: url('/assets/img/gold-star-headliner.png');
             background-size: 30px 30px;
         }
 
@@ -207,7 +207,7 @@ ul {
         -webkit-backface-visibility: hidden;
 
         &.active {
-            background: url('/assets/img/gold-star-list.png');
+            background-image: url('/assets/img/gold-star-list.png');
             background-size: 20px 20px;
         }
     }
