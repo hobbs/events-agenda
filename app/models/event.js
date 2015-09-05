@@ -29,8 +29,8 @@ events.reopenClass({
 	{
 		id: 1,
 		name: 'Check-in & Breakfast',
-		startTime: new Date(2015, 9, 9, 8, 30, 0, 0),
-		endTime: new Date(2015, 9, 9, 9, 30, 0, 0),
+		startTime: new Date(2015, 8, 9, 8, 30, 0, 0),
+		endTime: new Date(2015, 8, 9, 9, 30, 0, 0),
 		location: 'Wikia HQ',
 		imgUrl: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150',
 		featured: false
@@ -38,8 +38,8 @@ events.reopenClass({
 	{
 		id: 2,
 		name: 'Welcome & Introductions',
-		startTime: new Date(2015, 9, 9, 9, 30, 0, 0),
-		endTime: new Date(2015, 9, 9, 10, 45, 0, 0),
+		startTime: new Date(2015, 8, 9, 9, 30, 0, 0),
+		endTime: new Date(2015, 8, 9, 10, 45, 0, 0),
 		location: 'Town Hall',
 		imgUrl: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150',
 		featured: false
@@ -47,8 +47,8 @@ events.reopenClass({
 	{
 		id: 3,
 		name: 'Product Overview',
-		startTime: new Date(2015, 9, 9, 10, 45, 0, 0),
-		endTime: new Date(2015, 9, 9, 11, 15, 0, 0),
+		startTime: new Date(2015, 8, 9, 10, 45, 0, 0),
+		endTime: new Date(2015, 8, 9, 11, 15, 0, 0),
 		location: 'Town Hall',
 		imgUrl: 'http://vignette4.wikia.nocookie.net/admin-summit/images/d/d1/Slider-wikia-connect.png/revision/latest?cb=20150821022112',
 		featured: true
@@ -56,8 +56,8 @@ events.reopenClass({
 	{
 		id: 4,
 		name: 'Programming & Editorial Insights',
-		startTime: new Date(2015, 9, 9, 11, 15, 0, 0),
-		endTime: new Date(2015, 9, 9, 12, 0, 0, 0),
+		startTime: new Date(2015, 8, 9, 11, 15, 0, 0),
+		endTime: new Date(2015, 8, 9, 12, 0, 0, 0),
 		location: 'Town Hall',
 		imgUrl: 'http://vignette4.wikia.nocookie.net/admin-summit/images/a/a3/Programming_and_Editorial.jpg/revision/latest?cb=20150828014730',
 		featured: true
@@ -65,8 +65,8 @@ events.reopenClass({
 	{
 		id: 5,
 		name: 'Lunch',
-		startTime: new Date(2015, 9, 9, 12, 0, 0, 0),
-		endTime: new Date(2015, 9, 9, 13, 0, 0, 0),
+		startTime: new Date(2015, 8, 9, 12, 0, 0, 0),
+		endTime: new Date(2015, 8, 9, 13, 0, 0, 0),
 		location: 'Wikia HQ',
 		imgUrl: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150',
 		featured: false
@@ -74,8 +74,8 @@ events.reopenClass({
 	{
 		id: 6,
 		name: 'Creating Content in a Multi-device World',
-		startTime: new Date(2015, 9, 9, 13, 0, 0, 0),
-		endTime: new Date(2015, 9, 9, 14, 0, 0, 0),
+		startTime: new Date(2015, 8, 9, 13, 0, 0, 0),
+		endTime: new Date(2015, 8, 9, 14, 0, 0, 0),
 		location: 'Town Hall',
 		imgUrl: 'http://vignette3.wikia.nocookie.net/admin-summit/images/0/0d/Multi_Device.jpg/revision/latest?cb=20150828014355',
 		featured: true
@@ -83,8 +83,8 @@ events.reopenClass({
 	{
 		id: 7,
 		name: 'JS Security: A Fireside Chat',
-		startTime: new Date(2015, 9, 9, 14, 0, 0, 0),
-		endTime: new Date(2015, 9, 9, 14, 30, 0, 0),
+		startTime: new Date(2015, 8, 9, 14, 0, 0, 0),
+		endTime: new Date(2015, 8, 9, 14, 30, 0, 0),
 		location: 'Holodeck',
 		imgUrl: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150',
 		featured: false
@@ -92,8 +92,8 @@ events.reopenClass({
 	{
 		id: 8,
 		name: 'Infoboxes:  Past, Present & Future',
-		startTime: new Date(2015, 9, 9, 14, 0, 0, 0),
-		endTime: new Date(2015, 9, 9, 14, 30, 0, 0),
+		startTime: new Date(2015, 8, 9, 14, 0, 0, 0),
+		endTime: new Date(2015, 8, 9, 14, 30, 0, 0),
 		location: 'Ministry of Magic',
 		imgUrl: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150',
 		featured: false
@@ -101,8 +101,8 @@ events.reopenClass({
 	{
 		id: 9,
 		name: 'JS Security: A Fireside Chat',
-		startTime: new Date(2015, 9, 9, 15, 0, 0, 0),
-		endTime: new Date(2015, 9, 9, 15, 30, 0, 0),
+		startTime: new Date(2015, 8, 9, 15, 0, 0, 0),
+		endTime: new Date(2015, 8, 9, 15, 30, 0, 0),
 		location: 'Holodeck',
 		imgUrl: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150',
 		featured: false
@@ -110,8 +110,8 @@ events.reopenClass({
 	{
 		id: 10,
 		name: 'Infoboxes:  Past, Present & Future',
-		startTime: new Date(2015, 9, 9, 15, 0, 0, 0),
-		endTime: new Date(2015, 9, 9, 15, 30, 0, 0),
+		startTime: new Date(2015, 8, 9, 15, 0, 0, 0),
+		endTime: new Date(2015, 8, 9, 15, 30, 0, 0),
 		location: 'Ministry of Magic',
 		imgUrl: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150',
 		featured: false
@@ -119,8 +119,8 @@ events.reopenClass({
 	{
 		id: 11,
 		name: 'Threads, Conversations and Discussions, Oh My!',
-		startTime: new Date(2015, 9, 9, 15, 30, 0, 0),
-		endTime: new Date(2015, 9, 9, 16, 0, 0, 0),
+		startTime: new Date(2015, 8, 9, 15, 30, 0, 0),
+		endTime: new Date(2015, 8, 9, 16, 0, 0, 0),
 		location: 'Town Hall',
 		imgUrl: 'http://vignette2.wikia.nocookie.net/admin-summit/images/9/9d/Wizofoz.jpg/revision/latest?cb=20150821003411',
 		featured: true
@@ -128,8 +128,8 @@ events.reopenClass({
 	{
 		id: 12,
 		name: 'Building & Strengthening Communities Growth Strategies',
-		startTime: new Date(2015, 9, 9, 16, 0, 0, 0),
-		endTime: new Date(2015, 9, 9, 17, 0, 0, 0),
+		startTime: new Date(2015, 8, 9, 16, 0, 0, 0),
+		endTime: new Date(2015, 8, 9, 17, 0, 0, 0),
 		location: 'Holodeck',
 		imgUrl: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150',
 		featured: false
@@ -137,8 +137,8 @@ events.reopenClass({
 	{
 		id: 13,
 		name: 'Building & Strengthening Communities Communication Strategies',
-		startTime: new Date(2015, 9, 9, 16, 0, 0, 0),
-		endTime: new Date(2015, 9, 9, 17, 0, 0, 0),
+		startTime: new Date(2015, 8, 9, 16, 0, 0, 0),
+		endTime: new Date(2015, 8, 9, 17, 0, 0, 0),
 		location: 'Ministry of Magic',
 		imgUrl: 'http://vignette2.wikia.nocookie.net/admin-summit/images/7/73/Communication_online.jpg/revision/latest?cb=20150825141512',
 		featured: true
@@ -146,8 +146,8 @@ events.reopenClass({
 	{
 		id: 14,
 		name: 'Day 1 Outro',
-		startTime: new Date(2015, 9, 9, 17, 0, 0, 0),
-		endTime: new Date(2015, 9, 9, 17, 30, 0, 0),
+		startTime: new Date(2015, 8, 9, 17, 0, 0, 0),
+		endTime: new Date(2015, 8, 9, 17, 30, 0, 0),
 		location: 'Town Hall',
 		imgUrl: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150',
 		featured: false
@@ -155,8 +155,8 @@ events.reopenClass({
 	{
 		id: 15,
 		name: 'Operation Selfie Shootout',
-		startTime: new Date(2015, 9, 9, 17, 30, 0, 0),
-		endTime: new Date(2015, 9, 9, 20, 0, 0, 0),
+		startTime: new Date(2015, 8, 9, 17, 30, 0, 0),
+		endTime: new Date(2015, 8, 9, 20, 0, 0, 0),
 		location: 'Town Hall',
 		imgUrl: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150',
 		featured: false
@@ -164,8 +164,8 @@ events.reopenClass({
 	{
 		id: 16,
 		name: 'Rooftop Reception with Wikia Staff',
-		startTime: new Date(2015, 9, 9, 17, 30, 0, 0),
-		endTime: new Date(2015, 9, 9, 20, 0, 0, 0),
+		startTime: new Date(2015, 8, 9, 17, 30, 0, 0),
+		endTime: new Date(2015, 8, 9, 20, 0, 0, 0),
 		location: 'Rooftop',
 		imgUrl: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150',
 		featured: false
@@ -173,8 +173,8 @@ events.reopenClass({
 	{
 		id: 17,
 		name: 'Arrive & Breakfast',
-		startTime: new Date(2015, 9, 10, 8, 30, 0, 0),
-		endTime: new Date(2015, 9, 10, 9, 30, 0, 0),
+		startTime: new Date(2015, 8, 10, 8, 30, 0, 0),
+		endTime: new Date(2015, 8, 10, 9, 30, 0, 0),
 		location: 'Town Hall',
 		imgUrl: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150',
 		featured: false
@@ -182,8 +182,8 @@ events.reopenClass({
 	{
 		id: 18,
 		name: '5 Essential Techniques to Boost SEO Health',
-		startTime: new Date(2015, 9, 10, 9, 30, 0, 0),
-		endTime: new Date(2015, 9, 10, 10, 30, 0, 0),
+		startTime: new Date(2015, 8, 10, 9, 30, 0, 0),
+		endTime: new Date(2015, 8, 10, 10, 30, 0, 0),
 		location: 'Town Hall',
 		imgUrl: 'http://vignette1.wikia.nocookie.net/admin-summit/images/7/77/Doctor_Cookie_Monster_and_Ernie.jpg/revision/latest?cb=20150818194851',
 		featured: true
@@ -191,8 +191,8 @@ events.reopenClass({
 	{
 		id: 19,
 		name: 'Apps',
-		startTime: new Date(2015, 9, 10, 10, 30, 0, 0),
-		endTime: new Date(2015, 9, 10, 11, 0, 0, 0),
+		startTime: new Date(2015, 8, 10, 10, 30, 0, 0),
+		endTime: new Date(2015, 8, 10, 11, 0, 0, 0),
 		location: 'Town Hall',
 		imgUrl: 'http://vignette4.wikia.nocookie.net/admin-summit/images/c/cd/Apps.jpg/revision/latest?cb=20150828014514',
 		featured: true
@@ -200,8 +200,8 @@ events.reopenClass({
 	{
 		id: 20,
 		name: 'Lifecycle of a Feature at Wikia',
-		startTime: new Date(2015, 9, 10, 11, 0, 0, 0),
-		endTime: new Date(2015, 9, 10, 11, 30, 0, 0),
+		startTime: new Date(2015, 8, 10, 11, 0, 0, 0),
+		endTime: new Date(2015, 8, 10, 11, 30, 0, 0),
 		location: 'Town Hall',
 		imgUrl: 'http://vignette1.wikia.nocookie.net/admin-summit/images/3/35/Pride_rock.jpg/revision/latest?cb=20150813215742',
 		featured: true
@@ -209,8 +209,8 @@ events.reopenClass({
 	{
 		id: 21,
 		name: 'AMA Brown Bag Session (Lunch Included)',
-		startTime: new Date(2015, 9, 10, 11, 30, 0, 0),
-		endTime: new Date(2015, 9, 10, 13, 15, 0, 0),
+		startTime: new Date(2015, 8, 10, 11, 30, 0, 0),
+		endTime: new Date(2015, 8, 10, 13, 15, 0, 0),
 		location: 'Town Hall',
 		imgUrl: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150',
 		featured: false
@@ -218,8 +218,8 @@ events.reopenClass({
 	{
 		id: 22,
 		name: 'Board Bus for Afternoon Event',
-		startTime: new Date(2015, 9, 10, 13, 15, 0, 0),
-		endTime: new Date(2015, 9, 10, 13, 30, 0, 0),
+		startTime: new Date(2015, 8, 10, 13, 15, 0, 0),
+		endTime: new Date(2015, 8, 10, 13, 30, 0, 0),
 		location: 'Wikia HQ Outside',
 		imgUrl: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150',
 		featured: false
@@ -227,8 +227,8 @@ events.reopenClass({
 	{
 		id: 23,
 		name: 'Tour of Wax Museum at Fishermans Wharf',
-		startTime: new Date(2015, 9, 10, 14, 0, 0, 0),
-		endTime: new Date(2015, 9, 10, 16, 0, 0, 0),
+		startTime: new Date(2015, 8, 10, 14, 0, 0, 0),
+		endTime: new Date(2015, 8, 10, 16, 0, 0, 0),
 		location: 'Wax Museum At Fishermans Wharf',
 		imgUrl: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150',
 		featured: false
@@ -236,8 +236,8 @@ events.reopenClass({
 	{
 		id: 24,
 		name: 'Dinner at Hard Rock Cafe San Francisco',
-		startTime: new Date(2015, 9, 10, 17, 0, 0, 0),
-		endTime: new Date(2015, 9, 10, 19, 0, 0, 0),
+		startTime: new Date(2015, 8, 10, 17, 0, 0, 0),
+		endTime: new Date(2015, 8, 10, 19, 0, 0, 0),
 		location: 'Hard Rock Cafe San Francisco',
 		imgUrl: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150',
 		featured: false
@@ -245,8 +245,8 @@ events.reopenClass({
 	{
 		id: 25,
 		name: 'Board Bus to Return to Hotel/Wikia',
-		startTime: new Date(2015, 9, 10, 19, 0, 0, 0),
-		endTime: new Date(2015, 9, 10, 19, 15, 0, 0),
+		startTime: new Date(2015, 8, 10, 19, 0, 0, 0),
+		endTime: new Date(2015, 8, 10, 19, 15, 0, 0),
 		location: 'TBD',
 		imgUrl: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150',
 		featured: false
@@ -254,8 +254,8 @@ events.reopenClass({
 	{
 		id: 26,
 		name: 'Arrive & Breakfast',
-		startTime: new Date(2015, 9, 11, 8, 30, 0, 0),
-		endTime: new Date(2015, 9, 11, 9, 30, 0, 0),
+		startTime: new Date(2015, 8, 11, 8, 30, 0, 0),
+		endTime: new Date(2015, 8, 11, 9, 30, 0, 0),
 		location: 'Town Hall',
 		imgUrl: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150',
 		featured: false
@@ -263,8 +263,8 @@ events.reopenClass({
 	{
 		id: 27,
 		name: 'Discussion Deep Dive',
-		startTime: new Date(2015, 9, 11, 9, 30, 0, 0),
-		endTime: new Date(2015, 9, 11, 10, 30, 0, 0),
+		startTime: new Date(2015, 8, 11, 9, 30, 0, 0),
+		endTime: new Date(2015, 8, 11, 10, 30, 0, 0),
 		location: 'Town Hall',
 		imgUrl: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150',
 		featured: false
@@ -272,8 +272,8 @@ events.reopenClass({
 	{
 		id: 28,
 		name: 'Preview of New Contribution Tools',
-		startTime: new Date(2015, 9, 11, 9, 30, 0, 0),
-		endTime: new Date(2015, 9, 11, 10, 30, 0, 0),
+		startTime: new Date(2015, 8, 11, 9, 30, 0, 0),
+		endTime: new Date(2015, 8, 11, 10, 30, 0, 0),
 		location: 'Holodeck',
 		imgUrl: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150',
 		featured: false
@@ -281,8 +281,8 @@ events.reopenClass({
 	{
 		id: 29,
 		name: 'Keyword Research & Content Coverage (by Appointment or Walk-in)',
-		startTime: new Date(2015, 9, 11, 9, 30, 0, 0),
-		endTime: new Date(2015, 9, 11, 12, 0, 0, 0),
+		startTime: new Date(2015, 8, 11, 9, 30, 0, 0),
+		endTime: new Date(2015, 8, 11, 12, 0, 0, 0),
 		location: 'TBD',
 		imgUrl: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150',
 		featured: false
@@ -290,8 +290,8 @@ events.reopenClass({
 	{
 		id: 30,
 		name: 'Your Wikia Identity',
-		startTime: new Date(2015, 9, 11, 10, 30, 0, 0),
-		endTime: new Date(2015, 9, 11, 11, 0, 0, 0),
+		startTime: new Date(2015, 8, 11, 10, 30, 0, 0),
+		endTime: new Date(2015, 8, 11, 11, 0, 0, 0),
 		location: 'Town Hall',
 		imgUrl: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150',
 		featured: false
@@ -299,8 +299,8 @@ events.reopenClass({
 	{
 		id: 31,
 		name: 'Discussion Deep Dive',
-		startTime: new Date(2015, 9, 11, 11, 0, 0, 0),
-		endTime: new Date(2015, 9, 11, 12, 0, 0, 0),
+		startTime: new Date(2015, 8, 11, 11, 0, 0, 0),
+		endTime: new Date(2015, 8, 11, 12, 0, 0, 0),
 		location: 'Town Hall',
 		imgUrl: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150',
 		featured: false
@@ -308,8 +308,8 @@ events.reopenClass({
 	{
 		id: 32,
 		name: 'What the Flag Are Flags?',
-		startTime: new Date(2015, 9, 11, 11, 0, 0, 0),
-		endTime: new Date(2015, 9, 11, 11, 30, 0, 0),
+		startTime: new Date(2015, 8, 11, 11, 0, 0, 0),
+		endTime: new Date(2015, 8, 11, 11, 30, 0, 0),
 		location: 'Ministry of Magic',
 		imgUrl: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150',
 		featured: false
@@ -317,8 +317,8 @@ events.reopenClass({
 	{
 		id: 33,
 		name: 'Lunch | Free Time | Travel Home',
-		startTime: new Date(2015, 9, 11, 12, 0, 0, 0),
-		endTime: new Date(2015, 9, 11, 13, 0, 0, 0),
+		startTime: new Date(2015, 8, 11, 12, 0, 0, 0),
+		endTime: new Date(2015, 8, 11, 13, 0, 0, 0),
 		location: 'Town Hall',
 		imgUrl: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150',
 		featured: false
